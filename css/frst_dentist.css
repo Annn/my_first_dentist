@@ -1,0 +1,74 @@
+header.masthead {
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.05) 0%, rgba(92, 77, 66, 0.4) 100%), url("../img/bg-masthead.jpg");
+}
+
+.topbar {
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    font: inherit;
+    /* height: 100%; */
+}
+.contact{
+    height: 100%;
+    font: inherit;
+}
+/* .content-wrap {
+    width: 1170px;
+    max-width: 100%;
+    margin: 0 auto;
+} */
+.item.phone {
+    border-left: 1px solid #646464;
+    vertical-align: baseline;
+    color: #63c149;
+}
+.item.email {
+    /* padding-top: 13px; */
+    color: #63c149;
+    /* border-left: 1px solid #646464;  */
+}
+.item.hours{
+    color: #63c149;
+}
+.item.nets-lang {
+    float: right;
+}
+.item {
+    /* font-weight: 700; */
+    font-size: 0.8rem;
+    /* float: left; */
+    padding: 5px 15px 0;
+    /* height: 100%; */
+    height: 40px;
+    border-right: 1px solid #536b4b;
+}
+
+hr.divider {
+    border-color: #63c149;
+}
+
+.pull-right{
+    float: right;
+}
+
+#mainNav{
+    /* margin-top: 40px; */
+    visibility: visible;
+}
+
+.infoText{
+    color: white;
+    padding-left: 5px;
+}
+.infoFa{
+    font-size: 0.9rem;
+}
+.contactFa{
+    color: #63c149;
+}
+.contactRow{
+    padding-bottom: 50px;
+}
