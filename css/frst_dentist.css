@@ -4,7 +4,7 @@
 }
 */
 header.masthead {
-    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.05) 0%, rgba(92, 77, 66, 0.18) 100%), url("../img/bg_main_1.JPG");
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.05) 0%, rgba(92, 77, 66, 0.18) 100%), url("../img/bg_main1.JPG");
     background-size: cover;
     background-repeat: no-repeat;
 }
