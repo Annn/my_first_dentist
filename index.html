@@ -10,7 +10,7 @@
 
   <title>My First Dentist - Стоматологическая Клиника Для Детей</title>
     
-  <link rel="shortcut icon" href="img/tooth.png">
+  <link rel="shortcut icon" href="img/tooth_bookmark.png">
 
   <!-- Font Awesome Icons -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -27,22 +27,13 @@
   <link href="css/creative.css" rel="stylesheet">
   <link href="css/frst_dentist.css" rel="stylesheet">
 
-<!--
-  <style>
-    /* Set the size of the div element that contains the map */
-   #map {
-     height: 500px;  /* The height is 400 pixels */
-     width: 100%;  /* The width is the width of the web page */
-    }
- </style>
--->
 </head>
 
 <body id="page-top">
   <div class="topbar">
     <div class="container">
       <div class="row">
-          <div class="col item phone">
+          <div class="col item phone ">
               <i class="infoFa fas fa-phone-alt fa-2x"></i>
               <span class="infoText">Tel:&nbsp; +38 (073) 060-2002</span>
           </div>
@@ -52,28 +43,28 @@
           </div>
           <div class="col-md-auto item hours">
               <i class="infoFa far fa-clock fa-2x"></i>
-              <span class="infoText">Прием: пн-сб 8:00 - 18:00 </span> 
+              <span class="infoText">Прием: пн-сб 9:00 - 19:00 </span> 
           </div>
           <div class="col item nets-lang">
-              <ul class="pull-right list-inline social-buttons">
-                  <li class="list-inline-item">
-                      <a href="https://www.facebook.com/MyfirstdentistClinic/" target = "_blank">
+              <ul class="pull-right list-inline">
+                  <li class="list-inline-item topBarLink">
+                      <a class="" href="https://www.facebook.com/MyfirstdentistClinic/" target = "_blank">
                       <i class="fab fa-facebook-square fa-2x"></i>
                       </a>
                   </li>
-                  <li class="list-inline-item">
+                  <li class="list-inline-item topBarLink">
                       <a class = "" href="https://www.instagram.com/my_first_dentist_/" target = "_blank">
                         <i class="fab fa-instagram fa-2x"></i>
                       </a>
                   </li>
-                  <li class="list-inline-item">
-                      <a href="#">
-                      UA
+                  <li class="list-inline-item topBarLink">
+                      <a class="langs" href="#">
+                        UA
                       </a>
                   </li>
               </ul>       
           </div>
-      </div>    <!-- raw -->
+      </div>    <!-- row -->
     </div>  <!-- container -->
   </div>    <!-- Topbar -->
     
@@ -201,7 +192,7 @@
         <div class="row">
             <div class="col-sm-4">
             <div class="team-member">
-                <img class="mx-auto rounded-circle" src="img/team/Mary_1.png" alt="">
+                <img class="mx-auto rounded-circle" src="img/team/surmina.png" alt="">
                 <h3 class="text-white h4 mb-2">Сурмина Марина Руслановна</h3>
                     <p class="text-white">Главный врач</p>
             </div>
@@ -218,6 +209,28 @@
                     <img class="mx-auto rounded-circle" src="img/team/zagorujko.png" alt="">
                     <h3 class="text-white h4 mb-2">Загоруйко Юлия Валериевна</h3>
                         <p class="text-white">Врач стоматолог</p>
+                </div>
+            </div>
+        
+        <div class="col-sm-4">
+            <div class="team-member">
+                <img class="mx-auto rounded-circle" src="img/team/petrenko.png" alt="">
+                <h3 class="text-white h4 mb-2">Петренко Елена Александровна</h3>
+                    <p class="text-white">Врач ортодонт</p>
+            </div>
+            </div>
+            <div class="col-sm-4">
+            <div class="team-member">
+                <img class="mx-auto rounded-circle" src="img/team/verbitskaya.png" alt="">
+                <h3 class="text-white h4 mb-2">Вербицкая Анастасия Сергеевна</h3>
+                    <p class="text-white">Ассистент врача</p>
+            </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="img/team/nazarova.png" alt="">
+                    <h3 class="text-white h4 mb-2">Назарова Анна Александровна</h3>
+                        <p class="text-white">Главная медсестра</p>
                 </div>
             </div>
         </div>
@@ -319,59 +332,66 @@
 
     <!-- Price Section -->
   <section class="page-section bg-primary" id="price">
-    <div class="container">
+    <div class="container"> 
       <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="text-white mt-0">Стоимость наших услуг</h2>
+          <div class="col-lg-11 text-center">
+               <h2 class="section-heading text-white mt-0">Стоимость наших услуг</h2>
+          
           <hr class="divider light my-4">
           <table class="table table-sm table-price">
-            <thead>
+              <thead class="thead-light">
+                  <tr>
+                      <th scope="col">Вид работ</th>
+                      <th scope="col">Цена, от ... грн</th>
+                    </tr>
+                  </thead>
+            <tbody>
                 <tr>
                     <td class="table-price">Консультация</td>
-                    <td>от 150 грн</td>
+                    <td>150</td>
                 </tr>
                 <tr>
                     <td>Профессиональная чистка временных зубов</td>
-                    <td>от 300грн</td>
+                    <td>300</td>
                 </tr>
                 <tr>
                     <td>Урок гигиены</td>
-                    <td>300грн</td>
+                    <td>300</td>
                 </tr>
                 <tr>
-                    <td>Процедура вторирования всех зубов у детей</td>
-                    <td>250грн</td>
+                    <td>Процедура фторирования всех зубов у детей</td>
+                    <td>250</td>
                 </tr>
                 <tr>
                     <td>Лечение кариеса временного зуба</td>
-                    <td>от 300грн</td>
+                    <td>300</td>
                 </tr>
                 <tr>
                     <td>Лечение пульпита временного зуба</td>
-                    <td>от 1100грн</td>
+                    <td>1100</td>
                 </tr>
                 <tr>
                     <td>Стандартная коронка на временный зуб</td>
-                    <td>от 650грн</td>
+                    <td>650</td>
                 </tr>
                 <tr>
                     <td>Лечение кариеса постоянного зуба у детей</td>
-                    <td>от 1250грн</td>
+                    <td>1250</td>
                 </tr>
                 <tr>
-                    <td>Беспрепаровочнй метод лечения кариеса на начальной стадии</td>
-                    <td>1700грн</td>
+                    <td>Беспрепаровочный метод лечения кариеса на начальной стадии</td>
+                    <td>1700</td>
                 </tr>
                 <tr>
                     <td>Лечение пульпита постоянного зуба с незавершенным формированием корней</td>
-                    <td>от 2000грн</td>
+                    <td>2000</td>
                 </tr>
                 <tr>
                     
                 
-              </thead>
+              </tbody>
             </table>
-        </div>
+        </div> 
       </div>
     </div>
   </section>
@@ -382,24 +402,41 @@
         <div class="col-lg-8 text-center">
           <h2 class="mt-0">Контактная информация</h2>
           <hr class="divider my-4">
-<!--          <p class="text-muted ">Give us a call or send us an email and we will get back to you as soon as possible!</p>-->
+            <p class="text-muted ">Свяжитесь с нами любым удобным Вам способом и мы будем рады решить все Ваши вопросы!</p>
         </div>
       </div>
       <div class="row contactRow">
-        <div class="col-lg-4 mr-auto text-center">
+        <div class="col mr-auto text-center">
           <i class="contactFa fas fa-map-marker-alt fa-3x mb-3" aria-hidden="true"></i>
             <div>г. Харьков</div>
             <div>ул. Студенческая 5/2</div>
         </div>
-        <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+        <div class="col ml-auto text-center mb-5 mb-lg-0">
           <i class="contactFa fas fa-phone fa-3x mb-3"></i>
           <div>+38 (073) 060-2002</div>
           <div>+38 (066) 060-2002</div>
         </div>
-        <div class="col-lg-4 mr-auto text-center">
+        <div class="col mr-auto text-center">
           <i class="contactFa fas fa-envelope fa-3x mb-3"></i>
           <a class="d-block" href="mailto:my1dentist.kh@gmail.com">my1dentist.kh@gmail.com</a>
         </div>
+          <div class="col mr-auto text-center">
+              <div>
+                  <a class="" href="https://www.facebook.com/MyfirstdentistClinic/" target = "_blank">
+                      <i class="fab fa-facebook-square fa-3x"></i>
+                  </a>
+                  <div>Facebook</div>
+              </div>
+              
+          </div>
+          <div class="col mr-auto text-center">
+              <div>
+                  <a class = "" href="https://www.instagram.com/my_first_dentist_/" target = "_blank">
+                      <i class="contactFa fab fa-instagram fa-3x mb-3"></i>
+                  </a>
+                  <div>Instagram</div>
+            </div>  
+          </div>    
       </div>
       <div class="row justify-content-center">
         <div id="map"></div>
