@@ -4,9 +4,11 @@
 }
 */
 header.masthead {
-    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.05) 0%, rgba(92, 77, 66, 0.18) 100%), url("../img/bg_main1.JPG");
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.1) 0%, rgba(92, 77, 66, 0.3) 50%, rgba(92, 77, 66, 0.1) 100%), url("../img/bg_main.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
 }
 #portfolio {
     padding-bottom: 0px;
@@ -121,3 +123,22 @@ span.nobr {
 .img-team {
     border: 1px solid #fff;
 }
+
+.dropdown-item.active {
+    background-color: white;
+}
+
+#contactFB {
+    text-decoration: none;
+}
+
+.li-service {
+    list-style: none;
+
+}
+
+.li-service{
+  list-style-image: url('/img/tooth_list.png');
+}
+
+

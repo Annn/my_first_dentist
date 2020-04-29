@@ -8,10 +8,14 @@
   <meta name="description" content="My First Dentist: cтоматологическая клиника в Харькове для детей и всей семьи">
   <meta name="author" content="Hanna Vasiutina">
 
-  <title>My First Dentist - Стоматологическая Клиника Для Детей</title>
+  <title>My First Dentist - Стоматологическая Клиника Для Детей и Взрослых</title>
     
   <link rel="shortcut icon" href="img/tooth_bookmark.png">
 
+  <!--  Bootstrap core CSS-->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap/js/bootstrap.bundle.min.js">
+    
   <!-- Font Awesome Icons -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
@@ -84,14 +88,30 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#about">О нас</a>
           </li>
+<!--
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Услуги</a>
+            <a class="nav-link js-scroll-trigger" href="#team">Новости</a>
+          </li>
+-->
+          <li class="nav-item dropdown">
+            <a class="nav-link js-scroll-trigger" href="#services" >Услуги</a>
+          </li>
+<!-- Dropdown nav item
+          <li class="nav-item dropdown">
+            <a class="nav-link js-scroll-trigger dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Услуги</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="nav-link js-scroll-trigger dropdown-item" href="#services">Something else here</a>
+              <div class="dropdown-divider"></div>
+              <a class="nav-link js-scroll-trigger dropdown-item" href="pediatric_service.html">Детская стоматология</a>
+              <a class="nav-link js-scroll-trigger dropdown-item" href="adult_service.html">Взрослая стоматология</a>
+            </div>
+          </li>
+-->
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#team">Врачи</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#team">Врачи клиники</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Наши результаты</a>
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Наша клиника</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#price">Прайс</a>
@@ -104,19 +124,17 @@
     </div>
   </nav>
 </div>
-
-
+    
   <!-- Masthead -->
-  <header class="masthead">
+  <header class="masthead" id="about">
     <div class="container h-100">
       <div class="row h-100 align-items-center justify-content-center text-center">
         <div class="col-lg-10 align-self-end">
-<!--          <h1 class="text-uppercase text-white font-weight-bold">My First Dentist</h1>-->
             <h2 class="text-white mt-0">Приветствуем Вас в <span class="nobr">My First Dentist!</span></h2>
           <hr class="divider my-4">
         </div>
         <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5">Мы открылись! Приглашаем Вас в новую уникальную стоматологическую клинику для всей семьи!<br>
+          <p class="text-white font-weight-light mb-5">Мы открылись! Приглашаем Вас в новую уникальную стоматологическую клинику для всей семьи!<br>
             Мы гарантируем высокое качество лечения высокопрофессиональными врачами, а также заботу о каждом пациенте!</p>
 <!--          <p class="text-white-75 font-weight-light mb-5">Мы открылись! Приглашаем Вас в новую уникальную стоматологическую клинику для всей семьи!</p>-->
 <!--          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Узнай больше</a>-->
@@ -146,21 +164,90 @@
     <div class="container">
       <h2 class="text-center mt-0">Наши услуги</h2>
       <hr class="divider my-4">
-      <div class="row">
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
+      <div class="row text-muted">
+        <div class="col-md-6 text-center">
+<!--        <div class="col-lg-3 col-md-6 text-center">-->
+          <div class="">
+            <i class="fas fa-4x fa-tooth text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Детская стоматология:</h3>
+              <ul class="text-left li-service">
+                  <li>
+                      диагностика стоматологических заболеваний
+                  </li>
+                  <li>
+                      профилактика стоматологических заболеваний начиная с первого зуба
+                  </li>
+                  <li>
+                      лечение молочных и постоянных зубов у детей
+                  </li>
+                  <li>
+                      лечение острой и хронической травмы зубов
+                  </li>
+                  <li>
+                      детская хирургия
+                  </li>
+                  <li>
+                      удаление молочных зубов
+                  </li>
+                  <li>
+                      исправление прикуса, ортодонтическое лечение
+                  </li>
+                  <li>
+                      детское протезирование
+                  </li>
+                  <li>
+                      лечение заболеваний слизистой полости рта у детей
+                  </li>
+                  <li>
+                      лечение в условиях медикаментозного сна
+                  </li>
+                  <li>
+                      комплексная реабилитация зубов у детей с сопутствующими заболеваниями
+                  </li>
+              </ul>
+          </div>
+        </div>
+        <div class="col-md-6 text-center">
+<!--        <div class="col-lg-3 col-md-6 text-center">-->
+          <div class="">
             <i class="fas fa-4x fa-user-md text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Диагностика и профилактика</h3>
-            <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+<!--            <i class="fas fa-4x fa-teeth text-primary mb-4"></i>-->
+            <h3 class="h4 mb-2">Взрослая стоматология:</h3>
+              <ul class="text-left li-service">
+                  <li>
+                      консультативная и диагностическая помощь
+                  </li>
+                  <li>
+                      профессиональная гигиена полости рта и профилактика стоматологических заболеваний
+                  </li>
+                  <li>
+                      отбеливание зубов
+                  </li>
+                  <li>
+                      лечение кариеса зубов и его осложнений разной степени сложности
+                  </li>
+                  <li>
+                      художественная реставрация зубов прямым и непрямым методами (виниры)
+                  </li>
+                  <li>
+                      лечение заболеваний парадонта
+                  </li>
+                  <li>
+                      протезирование зубов
+                  </li>
+                  <li>
+                      удаление зубов разной степени сложности
+                  </li>
+                  <li >
+                      хирургия челюстно-лицевой области
+                  </li>
+                  <li>
+                      имплантация зубов минимально инвазивным и классическим методом
+                  </li>
+              </ul>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-teeth text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Лечение болезней зубов</h3>
-            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
-          </div>
-        </div>
+<!--
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-tooth text-primary mb-4"></i>
@@ -174,8 +261,25 @@
             <h3 class="h4 mb-2">Детская стоматологическая хирургия</h3>
             <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
           </div>
+-->
+<!--        </div>-->
+      </div> <!-- row -->
+        <div class="row text-muted">
+            <div class="col-lg-12 mx-auto ">
+                <h4 class="large mb-4 font-weight-bold text-center">Все виды лечения могут проводиться в условиях седации!</h4>
+                <ul class="li-service">
+                    <li>
+                        Также, наша клиника имеет возможность сотрудничества со страховыми компаниями.
+                    </li>
+                    <li>
+                        Мы всегда предлагаем нашим пациентам комплексный подход к решению их проблем и берём на себя заботу о дальнейшем стоматологическом Здоровье всей семьи!
+                    </li>
+                    <li>
+                        В нашей клинике работает система лояльности. Мы с удовольствием поощряем наших постоянных пациентов!
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </div>
   </section>
 
@@ -193,50 +297,50 @@
             <div class="col-sm-4">
             <div class="team-member">
                 <img class="mx-auto rounded-circle" src="img/team/surmina.png" alt="">
-                <h3 class="text-white h4 mb-2">Сурмина Марина Руслановна</h3>
-                    <p class="text-white">Главный врач</p>
+                <h3 class="text-white h4 mb-2">Сурмина Марина<br> Руслановна</h3>
+                    <p class="text-white-50">Главный врач</p>
             </div>
             </div>
             <div class="col-sm-4">
             <div class="team-member">
                 <img class="mx-auto rounded-circle" src="img/team/malahov.png" alt="">
-                <h3 class="text-white h4 mb-2">Малахов Артем Александрович</h3>
-                    <p class="text-white">Врач анестезиолог</p>
+                <h3 class="text-white h4 mb-2">Малахов Артем<br> Александрович</h3>
+                    <p class="text-white-50">Врач анестезиолог</p>
             </div>
             </div>
             <div class="col-sm-4">
                 <div class="team-member">
                     <img class="mx-auto rounded-circle" src="img/team/zagorujko.png" alt="">
-                    <h3 class="text-white h4 mb-2">Загоруйко Юлия Валериевна</h3>
-                        <p class="text-white">Врач стоматолог</p>
+                    <h3 class="text-white h4 mb-2">Загоруйко Юлия<br> Валериевна</h3>
+                        <p class="text-white-50">Стоматолог терапевт</p>
                 </div>
             </div>
         
         <div class="col-sm-4">
             <div class="team-member">
                 <img class="mx-auto rounded-circle" src="img/team/petrenko.png" alt="">
-                <h3 class="text-white h4 mb-2">Петренко Елена Александровна</h3>
-                    <p class="text-white">Врач ортодонт</p>
+                <h3 class="text-white h4 mb-2">Петренко Елена <br>Александровна</h3>
+                    <p class="text-white-50">Врач ортодонт</p>
             </div>
             </div>
             <div class="col-sm-4">
             <div class="team-member">
-                <img class="mx-auto rounded-circle" src="img/team/verbitskaya.png" alt="">
-                <h3 class="text-white h4 mb-2">Вербицкая Анастасия Сергеевна</h3>
-                    <p class="text-white">Ассистент врача</p>
+                <img class="mx-auto rounded-circle" src="img/team/nazarova.png" alt="">
+                <h3 class="text-white h4 mb-2">Назарова Анна<br> Александровна</h3>
+                    <p class="text-white-50">Главная медсестра</p>
             </div>
             </div>
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="img/team/nazarova.png" alt="">
-                    <h3 class="text-white h4 mb-2">Назарова Анна Александровна</h3>
-                        <p class="text-white">Главная медсестра</p>
+                    <img class="mx-auto rounded-circle" src="img/team/verbitskaya.png" alt="">
+                    <h3 class="text-white h4 mb-2">Вербицкая Анастасия Сергеевна</h3>
+                        <p class="text-white-50">Ассистент врача</p>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-8 mx-auto text-center">
-                <p class="large text-white-50 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea.</p>
+            <div class="col-lg-10 mx-auto text-center">
+                <p class="large text-white mb-4">Мы точно знаем, что регулярная профилактика гарантирует хорошее стоматологическое Здоровье и готовы поделиться с Вами этими секретами!</p>
             </div>
         </div>
     </div>
@@ -249,27 +353,27 @@
       <hr class="divider my-4">
       <div class="row no-gutters">
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/1_1.png">
+          <a class="portfolio-box" href="img/portfolio/fullsize/1.png">
             <img class="img-fluid img-team" src="img/portfolio/thumbnails/1.png" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
-                Category
+                My First Dentist
               </div>
               <div class="project-name">
-                Project Name
+                Работа врачей
               </div>
             </div>
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/2_2.png">
+          <a class="portfolio-box" href="img/portfolio/fullsize/2.png">
             <img class="img-fluid img-team" src="img/portfolio/thumbnails/2.png" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
-                Category
+                My First Dentist
               </div>
               <div class="project-name">
-                Project Name
+                Удобное положение пациента
               </div>
             </div>
           </a>
@@ -279,23 +383,23 @@
             <img class="img-fluid img-team" src="img/portfolio/thumbnails/3.png" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
-                Category
+                My First Dentist
               </div>
               <div class="project-name">
-                Project Name
+                Работа врачей
               </div>
             </div>
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box img-team" href="img/portfolio/fullsize/4_4.png">
+          <a class="portfolio-box img-team" href="img/portfolio/fullsize/4.png">
             <img class="img-fluid" src="img/portfolio/thumbnails/4.png" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
-                Category
+                My First Dentist
               </div>
               <div class="project-name">
-                Project Name
+                Современное оборудование
               </div>
             </div>
           </a>
@@ -305,10 +409,10 @@
             <img class="img-fluid img-team" src="img/portfolio/thumbnails/5.png" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
-                Category
+                Sence Education
               </div>
               <div class="project-name">
-                Project Name
+                Обучаюшие курсы для стоматологов
               </div>
             </div>
           </a>
@@ -318,16 +422,66 @@
             <img class="img-fluid img-team" src="img/portfolio/thumbnails/6.png" alt="">
             <div class="portfolio-box-caption p-3">
               <div class="project-category text-white-50">
-                Category
+                My First Dentist
               </div>
               <div class="project-name">
-                Project Name
+                Пациенты
               </div>
             </div>
           </a>
         </div>
-      </div>
-    </div>
+      </div> <!-- row -->
+      <div class="col text-center text-muted mt-3 mb-3">Здесь можно посмотреть наши результаты "до и после":</div>
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4 align-self-baseline text-center">  
+                <a class="portfolio-box" href="img/portfolio/teeth/thumbnails/image1.png">
+                    <img class="img-fluid img-team" src="img/portfolio/teeth.png" alt="">
+                    <div class="portfolio-box-caption p-3">
+                        <div class="project-category text-white-50">
+                            наши результаты "до и после"
+                        </div>
+                        <div class="project-name">
+                            Зубки
+                        </div>
+                    </div>
+                </a>
+                <a class="portfolio-box" href="img/portfolio/teeth/thumbnails/image2.png"></a>
+                <a class="portfolio-box" href="img/portfolio/teeth/thumbnails/image3.png">
+                </a>
+            </div> 
+            <div class="col-lg-4"></div>
+        </div> <!-- row-->
+        
+<!--            <a class="btn btn-primary btn-xl js-scroll-trigger" data-toggle="modal" data-target="#myModal">Здесь можно посмотреть наши результаты "до и после"</a>-->
+
+              
+              
+<!--          </div>-->
+      
+<!--
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-sm">
+
+             Modal content
+            <div class="modal-content">
+              <div class="modal-body">
+                  <button type="button" class="close" data-dismiss="modal">&times;
+                  </button>
+                  <img class="img-fluid img-team" src="img/portfolio/teeth/thumbnails/tooth1.png" alt=""> 
+                <p>Результат лечения</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+-->
+        
+        
+      </div> <!-- container-->
   </section>
 
     <!-- Price Section -->
@@ -347,44 +501,44 @@
                   </thead>
             <tbody>
                 <tr>
-                    <td class="table-price">Консультация</td>
-                    <td>150</td>
+                    <td>Консультация</td>
+                    <td class="text-center">150</td>
                 </tr>
                 <tr>
                     <td>Профессиональная чистка временных зубов</td>
-                    <td>300</td>
+                    <td class="text-center">300</td>
                 </tr>
                 <tr>
                     <td>Урок гигиены</td>
-                    <td>300</td>
+                    <td class="text-center">300</td>
                 </tr>
                 <tr>
                     <td>Процедура фторирования всех зубов у детей</td>
-                    <td>250</td>
+                    <td class="text-center">250</td>
                 </tr>
                 <tr>
                     <td>Лечение кариеса временного зуба</td>
-                    <td>300</td>
+                    <td class="text-center">300</td>
                 </tr>
                 <tr>
                     <td>Лечение пульпита временного зуба</td>
-                    <td>1100</td>
+                    <td class="text-center">1100</td>
                 </tr>
                 <tr>
                     <td>Стандартная коронка на временный зуб</td>
-                    <td>650</td>
+                    <td class="text-center">650</td>
                 </tr>
                 <tr>
                     <td>Лечение кариеса постоянного зуба у детей</td>
-                    <td>1250</td>
+                    <td class="text-center">1250</td>
                 </tr>
                 <tr>
                     <td>Беспрепаровочный метод лечения кариеса на начальной стадии</td>
-                    <td>1700</td>
+                    <td class="text-center">1700</td>
                 </tr>
                 <tr>
                     <td>Лечение пульпита постоянного зуба с незавершенным формированием корней</td>
-                    <td>2000</td>
+                    <td class="text-center">2000</td>
                 </tr>
                 <tr>
                     
@@ -405,42 +559,42 @@
             <p class="text-muted ">Свяжитесь с нами любым удобным Вам способом и мы будем рады решить все Ваши вопросы!</p>
         </div>
       </div>
-      <div class="row contactRow">
-        <div class="col mr-auto text-center">
-          <i class="contactFa fas fa-map-marker-alt fa-3x mb-3" aria-hidden="true"></i>
-            <div>г. Харьков</div>
-            <div>ул. Студенческая 5/2</div>
-        </div>
-        <div class="col ml-auto text-center mb-5 mb-lg-0">
-          <i class="contactFa fas fa-phone fa-3x mb-3"></i>
-          <div>+38 (073) 060-2002</div>
-          <div>+38 (066) 060-2002</div>
-        </div>
-        <div class="col mr-auto text-center">
-          <i class="contactFa fas fa-envelope fa-3x mb-3"></i>
-          <a class="d-block" href="mailto:my1dentist.kh@gmail.com">my1dentist.kh@gmail.com</a>
-        </div>
-          <div class="col mr-auto text-center">
-              <div>
-                  <a class="" href="https://www.facebook.com/MyfirstdentistClinic/" target = "_blank">
-                      <i class="fab fa-facebook-square fa-3x"></i>
+      <div class="row contactRow text-muted">
+          <div class="col-lg-3 mr-auto text-center">
+              <i class="contactFa fas fa-map-marker-alt fa-3x mb-3" aria-hidden="true"></i>
+                <div>г. Харьков</div>
+                <div>ул. Студенческая 5/2</div>
+            </div>
+            <div class="col-lg-3 ml-auto text-center mb-5 mb-lg-0">
+                <i class="contactFa fas fa-phone fa-3x mb-3"></i>
+                  <div>+38 (073) 060-2002</div>
+                  <div>+38 (066) 060-2002</div>
+            </div>
+            <div class="col-lg-3 mr-auto text-center">
+                  <i class="contactFa fas fa-envelope fa-3x mb-3"></i>
+                  <a class="d-block" href="mailto:my1dentist.kh@gmail.com" target="_top">my1dentist.kh@gmail.com</a>
+            </div>
+        
+            <div class="col-lg-3 mr-auto text-center">
+              <div class="d-inline p-2" >
+                  <a id="contactFB" href="https://www.facebook.com/MyfirstdentistClinic/" target = "_blank" title="Facebook">
+                      <i class="contactFa fab fa-facebook-square fa-3x  mb-3"></i>
                   </a>
-                  <div>Facebook</div>
+                  
               </div>
-              
-          </div>
-          <div class="col mr-auto text-center">
-              <div>
-                  <a class = "" href="https://www.instagram.com/my_first_dentist_/" target = "_blank">
+                <div class="d-inline p-2">
+                  <a  href="https://www.instagram.com/my_first_dentist_/" target = "_blank" title="Instagram">
                       <i class="contactFa fab fa-instagram fa-3x mb-3"></i>
                   </a>
-                  <div>Instagram</div>
-            </div>  
-          </div>    
-      </div>
+                  
+                </div>
+                <p>мы в соцсетях</p>
+             </div>       
+        </div>
       <div class="row justify-content-center">
         <div id="map"></div>
       </div>
+        
     </div>
   </section>
 
@@ -494,9 +648,11 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiAylIV_hH7_Y5cKTAp8H_Zovpjsx5tiI&callback=initMap">
   </script>
 
+    
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
