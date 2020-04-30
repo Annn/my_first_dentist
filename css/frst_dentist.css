@@ -138,7 +138,7 @@ span.nobr {
 }
 
 .li-service{
-  list-style-image: url('/img/tooth_list.png');
+  list-style-image: url("../img/tooth_list.png");
 }
 
 
