@@ -42,6 +42,8 @@ header.masthead {
 }
 .item.nets-lang {
     padding-top: 2.5px;
+    margin-left: auto;
+    margin-right: 0;
 }
 .item {
     display: table-cell;
@@ -140,5 +142,9 @@ span.nobr {
 .li-service{
   list-style-image: url("../img/tooth_list.png");
 }
+
+
+
+
 
 
